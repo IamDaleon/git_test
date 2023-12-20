@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lashes</title>
+    <style>
+      .container {
+        font-family: monospace, Courier New;
+        width: 30%;
+        padding: 40px;
+        margin: 40px auto;
+        background: linear-gradient(
+          110.5deg,
+          rgba(248, 196, 249, 0.66) 22.8%,
+          rgba(253, 122, 4, 0.15) 64.6%
+        );
+
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 60px;
+        border: 3px solid #676467;
+        box-shadow: 5px 10px 30px;
+      }
+
+      section {
+        margin: 120px 0;
+      }
+      h1,
+      h2 {
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 50px;
+        margin: 20px;
+      }
+      h1 {
+        color: #945c94;
+        text-align: center;
+        border: 1px solid #28155a;
+        padding: 10px;
+      }
+      h2 {
+        text-align: center;
+        color: #945c94;
+        border-radius: 4px;
+        font-size: 20px;
+      }
+
+      a {
+        text-align: center;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 20px 10px;
+        font-family: PT Mono, monospace;
+        text-align: center;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+        max-width: 40%;
+        border-radius: 10px;
+        border: 3px solid #080808;
+      }
+
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #fbd8fb;
+        border: 1px solid #fbd8fb;
+        color: #626161;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        box-shadow: 15px 5px 40px;
+      }
+      button:hover {
+        color: rgb(246, 193, 247);
+        background: #945c94;
+        opacity: 0.9;
+        cursor: pointer;
+        transition: 200ms;
+        box-shadow: 15px 20px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><strong>Lash Extenstions</strong></h1>
+      <h2>
+        Have
+        <strong><em>Long And Beautiful</em></strong>
+        Lashes
+
+        <hr />
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/401/original/What-would-i-look-like-with-eyelash-extensions.jpeg?1665676858"
+        alt="Lashes"
+      />
+      <br />
+      <hr />
+
+      <p>
+        “Lash extensions are semi-permanent synthetic, faux mink or silk fibers
+        which are applied strand by strand to your natural lashes,” explains
+        Richardson. As you might expect, the application is fairly tedious. “The
+        extensions are carefully applied one at a time using a
+        specially-formulated,
+        <span style="color: blue">
+          semi-permanent glue that will not irritate or damage the natural
+          lash</span
+        >,” she adds. <br /><br />
+
+        Unlike false eyelashes, where the strip or individual lashes are applied
+        to the skin, lash extensions are attached directly to the lash itself.
+        The results are more lush, dense lashes that may even let you skip
+        mascara 😯.
+      </p>
+      <br />
+
+      <hr />
+      <br />
+      <br />
+      <button class="buy-button">Book your appointment!</button>
+      <br />
+      <br />
+      <p class="footer">
+        Coded by
+        <a href="https://www.dejenstudio.com/about-us" target="_blank">
+          Shaina DeGeneste
+        </a>
+      </p>
+      <script>
+        function eyeLash() {
+          let name = prompt("What is your name?");
+          let email = prompt("What is your email address?");
+          let time = prompt("Ready to cut down your makeup time in half?");
+
+          if (time === "yes") {
+            alert(
+              "Thank you " +
+                name +
+                "! We will contact you to setup your appointment!"
+            );
+          } else {
+            alert("We have other options to enhance your lashes");
+          }
+        }
+        let button = document.querySelector("button");
+        button.addEventListener("click", eyeLash);
+      </script>
+    </div>
+  </body>
+</html>
+
