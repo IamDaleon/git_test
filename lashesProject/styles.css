@@ -1,0 +1,93 @@
+.container {
+    font-family: monospace, Courier New;
+    width: 30%;
+    padding: 40px;
+    margin: 40px auto;
+    background: linear-gradient(
+      110.5deg,
+      rgba(248, 196, 249, 0.66) 22.8%,
+      rgba(253, 122, 4, 0.15) 64.6%
+    );
+
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 60px;
+    border: 3px solid #676467;
+    box-shadow: 5px 10px 30px;
+  }
+
+  section {
+    margin: 120px 0;
+  }
+  h1,
+  h2 {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 20px;
+  }
+  h1 {
+    color: #945c94;
+    text-align: center;
+    border: 1px solid #28155a;
+    padding: 10px;
+    font-weight: bolder;
+  }
+  h2 {
+    text-align: center;
+    color: #945c94;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  .sub{
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  a {
+    text-align: center;
+  }
+  p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 20px 10px;
+    font-family: PT Mono, monospace;
+    text-align: center;
+  }
+
+  img {
+    margin: 0 auto;
+    display: block;
+    max-width: 40%;
+    border-radius: 10px;
+    border: 3px solid #080808;
+  }
+
+  .buy-button{
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  button {
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fbd8fb;
+    border: 1px solid #fbd8fb;
+    color: #626161;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    text-decoration: none;
+    transition: all 200ms ease;
+    box-shadow: 15px 5px 40px;
+  }
+  button:hover {
+    color: rgb(246, 193, 247);
+    background: #945c94;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: 200ms;
+    box-shadow: 15px 20px 40px;
+  }

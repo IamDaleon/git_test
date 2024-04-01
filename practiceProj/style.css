@@ -1,0 +1,45 @@
+body {
+    font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+  }
+  section {
+    margin: 120px 0;
+  }
+  h1,
+  h2 {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 48px;
+    margin: 0;
+  }
+  h1 {
+    color: #272044;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: #885df1;
+    padding: 0 0 24px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: PT Mono, monospace;
+    text-align: center;
+  }
+  button {
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #885df1;
+    color: #885df1;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+  button:hover {
+    color: #fff;
+    background: #885df1;
+  }
